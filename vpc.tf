@@ -81,7 +81,7 @@ resource "aws_nat_gateway" "ns" {
 
 resource "aws_key_pair" "gs" {
   key_name = "Jeff"
-  public_key = "sh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdri+EtVNNCYf+EuTEajy1W5drWQREyMVeCBTOncrHjQR5UByEUwrtTQC5K678IwiNqXrf9VN2LMvsUFAFPwPPl0scIQ+93WKD3VBUdtmp7ov7406GXYnbHxhUTnHdOKKmizgUcRsDESf1htHkMY/t3BgzuVJZvypmQ2yHhyshiU6XPm1h75gdTLOGLeUwCWqn19ih2/C22edYzdgyiP0aIPRRQd2MvWIDFWfDm7XaL3Vc0/KmVeYNmHV8iVgbBZgacLbNy1zmd//e4jLw4FLztaYUcSmY4+XrUJ0VE9Zndkq2vCCGubnvtwrxkZb6XoeaUr06udb++JQ8+2A08ISR jeff.destine@NYCMBP4.local"
+  public_key = ""
 }
 
 output "ip" {

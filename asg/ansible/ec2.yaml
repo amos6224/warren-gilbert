@@ -1,0 +1,13 @@
+---
+- hosts: all
+  gather_facts: false
+  sudo: true
+
+  tasks:
+    - file:
+        path: /home/ubuntu/warren-gilbert
+        state: absent
+
+  roles:
+    - docker
+    - nginx

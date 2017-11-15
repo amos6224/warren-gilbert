@@ -1,0 +1,3 @@
+[all]
+34.215.85.69 ansible_port=22 ansible_user=ubuntu ansible_sudo=yes
+54.148.143.198 ansible_port=22 ansible_user=ubuntu ansible_sudo=yes

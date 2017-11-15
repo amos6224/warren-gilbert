@@ -1,0 +1,6 @@
+---
+- name: install Docker
+  apt:
+    name: docker
+    state: latest
+    update_cache: yes
